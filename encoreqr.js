@@ -1,0 +1,1 @@
+javascript:(function(){var message = dojo.query(".callNum");var message = message[0].innerHTML;var qr = document.getElementById('mediaURLImageAnyComponent');var google = "http://chart.apis.google.com/chart?cht=qr&chs=150x150&chl=";var googleqr= google+message;qr.src=googleqr;})();
